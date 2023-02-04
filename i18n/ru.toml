@@ -8,7 +8,7 @@ other = "↳ Давайте вернёмся на главную"
 other = "Все {{.Title}}"
 
 [last_updated]
-other = "Свежие страницы"
+other = "Обновлено"
 
 [notes_count]
 other = "страниц с этим тегом"
