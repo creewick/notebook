@@ -1,6 +1,6 @@
 ---
 title: Категории глубинных убеждений
 ---
-- 1
-- 2
-- 3
+- [[psychology/core_belief_category/incompetence|Некомпетентность]]
+- [[psychology/core_belief_category/unattractiveness|Непривлекательность]]
+- [[psychology/core_belief_category/worthlessness|Никчёмность]]
