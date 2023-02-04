@@ -248,7 +248,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
         .scaleExtent([0.25, 4])
         .on("zoom", ({ transform }) => {
           link.attr("transform", transform)
-          //node.attr("transform", transform)
+          node.attr("transform", d3.zoomIdentity.translate(transform.x, transform.y).scale(1))
           const scale = transform.k * opacityScale;
           const scaledOpacity = Math.max((scale - 1) / 3.75, 0)
           labels.attr("transform", transform).style("opacity", scaledOpacity)
