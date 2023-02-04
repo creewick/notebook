@@ -16,6 +16,8 @@
   }
 </style>
 {{ $js := resources.Get "js/graph.js" | resources.Fingerprint "md5" }}
+
+<script src="{{ $js.Permalink }}"></script>
 <script>
   const container = document.getElementById("graph-container");
   container.textContent = "";
@@ -33,4 +35,3 @@
       drawGlobal ? {{$.Site.Data.graphConfig.globalGraph}} : {{$.Site.Data.graphConfig.localGraph}}
     );
 </script>
-<script src="{{ $js.Permalink }}"></script>
