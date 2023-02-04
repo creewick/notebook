@@ -1,4 +1,4 @@
 ---
 title: Концептуализация
 ---
-![[psychology/conceptualization.jpg]]
+![Диаграмма когнитивной концептуализации](psychology/conceptualization.jpg)
