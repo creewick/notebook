@@ -34,4 +34,6 @@ globalGraph:
 ### For all graphs ###
 
 paths:
-  - /moc: "#4388cc"
+  - /psychology/cbt: "#AD5CD6"
+  - /psychology/sdvg: "F0C46A"
+  - /psychology/emotions: "70C2C0"
