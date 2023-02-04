@@ -19,9 +19,12 @@
 <script>
   const container = document.getElementById("graph-container");
   container.textContent = "";
-    const pathBase = siteBaseURL.pathname;
-    const pathWindow = window.location.pathname;
-    const isHome = pathBase == pathWindow;
+
+  const BASE_URL = {{.Site.BaseURL}}
+  const siteBaseURL = new URL(BASE_URL);
+  const pathBase = siteBaseURL.pathname;
+  const pathWindow = window.location.pathname;
+  const isHome = pathBase == pathWindow;
 
   const drawGlobal = isHome && {{$.Site.Data.graphConfig.enableGlobalGraph}};
   drawGraph(
