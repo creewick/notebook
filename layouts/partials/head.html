@@ -131,7 +131,7 @@
       {{if $data.enableFooter | default $.Site.Data.config.enableFooter}}
       const footer = document.getElementById("footer")
       if (footer) {
-        window.addEventListener("load", () => {
+        window.addEventListener("DOMContentLoaded", () => {
           const container = document.getElementById("graph-container")
           // retry if the graph is not ready
           if (!container) return requestAnimationFrame(render)
