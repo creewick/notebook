@@ -1,5 +1,5 @@
 baseURL = "https://creewick.github.io/notes/"
-languageCode = "en-us"
+languageCode = "ru"
 googleAnalytics = "G-XYFD95KB4J"
 relativeURLs = false
 disablePathToLower = true

@@ -1,5 +1,5 @@
 ---
-title: 🪴 Quartz 3.
+title: 🔆 Creewick's notes
 enableToc: false
 ---
-Test!
+

@@ -1,0 +1,65 @@
+[404_message]
+other = "Хей! Похоже, вы потерялись. Такой страницы здесь нет (или она приватная)"
+
+[404_back]
+other = "↳ Давайте вернёмся на главную"
+
+[all_posts]
+other = "Все {{.Title}}"
+
+[last_updated]
+other = "Свежие страницы"
+
+[notes_count]
+other = "страниц с этим тегом"
+
+[first_10]
+other = "показано 10 первых результатов"
+
+[tag]
+other = "Тег"
+
+[backlinks]
+other = "Обратные ссылки"
+
+[no_backlinks]
+other = "Обратных ссылок не найдено"
+
+[home]
+other = "Главная"
+
+[light_mode]
+other = "Светлая тема"
+
+[dark_mode]
+other = "Тёмная тема"
+
+[edit_source]
+other = "Редактировать"
+
+[interactive_graph]
+other = "Дерево ссылок"
+
+[search]
+other = "Поиск"
+
+[search_icon]
+other = "Иконка поиска"
+
+[icon_search]
+other = "Иконка для открытия поиска"
+
+[recent_notes]
+other = "Последние страницы"
+
+[first_3_notes]
+other = "Первые 3 {{ .notes }}"
+
+[search_for_something]
+other = "Найти что-то..."
+
+[toc]
+other = "Оглавление"
+
+[copyright]
+other = "Сделано {{ .name }} с помощью <a href=\"https://github.com/jackyzha0/quartz\">Quartz</a>, © {{ .year }}"
