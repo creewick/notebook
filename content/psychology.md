@@ -1,4 +1,4 @@
 ---
 title: "Психология"
 ---
-- [[notes/psychology/cbt]]
+- [[psychology/cbt|КПТ]]
