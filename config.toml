@@ -1,7 +1,6 @@
 baseURL = "https://creewick.github.io/notes/"
 languageCode = "ru"
 defaultContentLanguage = "ru"
-googleAnalytics = "G-XYFD95KB4J"
 relativeURLs = true
 disablePathToLower = true
 ignoreFiles = [
