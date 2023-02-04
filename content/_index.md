@@ -1,5 +1,4 @@
 ---
-title: 🔆 Creewick's notes
-enableToc: false
+title: 🔆 Creewick
 ---
-
+- [[notes/psychology|Психология]]
