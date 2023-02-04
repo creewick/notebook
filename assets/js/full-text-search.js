@@ -1,21 +1,19 @@
 ; (async function() {
-  const encoder = (str) => str.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/)
+  const encoder = (str) => str.toLowerCase().split(/([^\x00-\x7F])/)
   const contentIndex = new FlexSearch.Document({
     cache: true,
-    charset: "latin:extra",
+    charset: "unicode",
     optimize: true,
     index: [
       {
         field: "content",
-        tokenize: "forward",
-        encode: false,
-        split: /\s+/,
+        tokenize: "reverse",
+        encode: encoder,
       },
       {
         field: "title",
         tokenize: "forward",
-        encode: false,
-        split: /\s+/,
+        encode: encoder,
       },
     ],
   })
