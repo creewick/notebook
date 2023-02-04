@@ -61,7 +61,7 @@ const highlight = (content, term) => {
     const h = highlightWindow
     const before = content.substring(0, directMatchIdx).split(" ").slice(-h)
     const after = content
-      .substring(directMatchIdx + term.length, content.length - 2)
+      .substring(directMatchIdx + term.length, content.length)
       .split(" ")
       .slice(0, h)
     return (
