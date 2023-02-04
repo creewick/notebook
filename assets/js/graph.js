@@ -123,7 +123,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
         .append("circle")
         .attr("cx", -width / 2 + 20)
         .attr("cy", height / 2 - 30 * (i + 1))
-        .attr("r", 9)
+        .attr("r", 6)
         .style("fill", colour)
       svg
         .append("text")
@@ -154,7 +154,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
   const nodeRadius = (d) => {
     const numOut = index.links[d.id]?.length || 0
     const numIn = index.backlinks[d.id]?.length || 0
-    return 1.5 * (2 + Math.sqrt(numOut + numIn))
+    return 1.5 * (2 + Math.sqrt(numOut + numIn)) / scale
   }
 
   // draw individual nodes
@@ -248,7 +248,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
         .scaleExtent([0.25, 4])
         .on("zoom", ({ transform }) => {
           link.attr("transform", transform)
-          node.attr("transform", d3.zoomIdentity.translate(transform.x, transform.y).scale(1))
+          node.attr("transform", transform)
           const scale = transform.k * opacityScale;
           const scaledOpacity = Math.max((scale - 1) / 3.75, 0)
           labels.attr("transform", transform).style("opacity", scaledOpacity)
