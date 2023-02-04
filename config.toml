@@ -1,4 +1,4 @@
-baseURL = "https://creewick.github.io/notes/"
+baseURL = "https://creewick.github.io/notebook/"
 languageCode = "ru"
 defaultContentLanguage = "ru"
 relativeURLs = true
