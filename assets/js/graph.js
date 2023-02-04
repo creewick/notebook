@@ -1,5 +1,4 @@
 async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
-  console.log('drawGraph');
   let {
   depth,
   enableDrag,
@@ -124,7 +123,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
         .append("circle")
         .attr("cx", -width / 2 + 20)
         .attr("cy", height / 2 - 30 * (i + 1))
-        .attr("r", 6)
+        .attr("r", 12)
         .style("fill", colour)
       svg
         .append("text")
@@ -155,7 +154,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
   const nodeRadius = (d) => {
     const numOut = index.links[d.id]?.length || 0
     const numIn = index.backlinks[d.id]?.length || 0
-    return 2 + Math.sqrt(numOut + numIn)
+    return 2 * (2 + Math.sqrt(numOut + numIn))
   }
 
   // draw individual nodes
