@@ -8,7 +8,7 @@ title: Последствия
 	- *тревога, обида, злость*
 - [[psychology/abcde/consequence/behavior|Поведенческие]] (Cb)
 	- *агрессия, избегание*
-- [[psychology/abcde/consequence/physical|Физиологические]] (Cv)
+- [[psychology/abcde/consequence/physiological|Физиологические]] (Cv)
 	- *сухость во рту, высокий пульс, потливость*
 - [[psychology/abcde/consequence/cognitive|Когнитивные]] (Сс)
 	- *трудно сосредоточиться*
