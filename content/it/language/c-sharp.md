@@ -2,5 +2,5 @@
 title: C#
 ---
 ## Курсы
-- [[http://ulearn.me|ULearn (c) СКБ Контур]]
-- [[https://code-basics.com/ru/languages/csharp|CodeBasics (c) Hexlet]]
+- [ULearn (c) СКБ Контур](http://ulearn.me)
+- [CodeBasics (c) Hexlet](https://code-basics.com/ru/languages/csharp)
