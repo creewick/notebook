@@ -1,1 +1,1 @@
-# [https://creewick.github.io/notebook](Заметки)
+# [https://creewick.github.io/notes/](Заметки)
