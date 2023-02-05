@@ -107,6 +107,8 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     )
     .force("center", d3.forceCenter())
 
+  container.textContent = "";
+
   const svg = d3
     .select("#graph-container")
     .append("svg")
