@@ -3,4 +3,4 @@ title: 🔆 Creewick
 ---
 - [[psychologies|Психология]]
 
-- [[section2.md|Section2]]
+- [[section2|Section2]]
