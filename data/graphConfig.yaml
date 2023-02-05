@@ -34,6 +34,7 @@ globalGraph:
 ### For all graphs ###
 
 paths:
+  - /immigration: "#F0C46A"
   - /psychology/cbt: "#AD5CD6"
   - /psychology/book: "#AD5CD6"
   - /psychology/sdvg: "#F0C46A"
