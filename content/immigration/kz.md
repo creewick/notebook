@@ -19,5 +19,8 @@ title: Казахстан
 - [[immigration/kz/doc/international-passport|Загранпаспорт]]
 - [[immigration/kz/doc/residence-permit|РВП]]
 
+## Куда сходить
+- [[immigration/kz/almaty|Алматы]]
+
 ## Другое
 - [[immigration/kz/ip-too|Открытие ИП или ТОО]]
