@@ -13,6 +13,8 @@ title: Казахстан
 3. Сделать [[immigration/kz/doc/international-passport|загранпаспорт]], если его ещё нет
 4. В течение первых 3 месяцев сделать [[immigration/kz/doc/residence-permit|разрешение на временное пребывание]]
 
+- [[immigration/kz/ip-too|Открытие ИП или ТОО]]
+
 ## Список документов
 - [[immigration/kz/doc/arrival-notice|Справка о прибытии]]
 - [[immigration/kz/doc/tax-number|ИИН]]

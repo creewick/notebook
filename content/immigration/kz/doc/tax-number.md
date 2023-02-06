@@ -5,7 +5,7 @@ title: ИИН
 Нужен для оформления [[immigration/kz/doc/residence-permit|РВП]]. Оформляется в [[immigration/kz/ppc|ЦОН]].
 
 ## Необходимые документы
-- Загранпаспорт
+- [[immigration/kz/doc/international-passport|Загранпаспорт]]
 или
 - Паспорт РФ
 - + Заверенная копия перевода
