@@ -89,7 +89,7 @@
           {{$content = replace $content . $link}}
         <!-- Audio -->
         {{else if in ".mp3 .webm .wav .m4a .ogg .3gp .flac" $embed_ext}}
-          {{$link := printf "<audio src=\"%s\" controls></audio>" $href}}
+          {{$link := printf "<audio src=\"%s\" controls=\"\"></audio>" $href}}
           {{$content = replace $content . $link}}
         <!-- PDF -->
         {{else if in ".pdf" $embed_ext }}
