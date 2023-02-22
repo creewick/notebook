@@ -6,6 +6,7 @@
   is a collection of pages.
   https://gohugo.io/content-management/related/
   -->
-  {{partial "page-list.html" (range first 3 ( where .Site.Pages.ByDate "Type" "blog" ))}}
+  {{$notes := where .Site.Pages.ByDate "Type" "blog" }}
+  {{partial "page-list.html" (first 3 $notes)}}
 </div>
 
