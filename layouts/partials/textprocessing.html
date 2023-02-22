@@ -85,15 +85,15 @@
           {{$content = replace $content . $link}}
         <!-- Video -->
         {{else if in ".mp4 .webm .ogv .mov .mkv" $embed_ext}}
-          {{$link := printf "<video src=\"%s\" style=\"width: 100\%;\" controls></video>" $href}}
+          {{$link := printf "<video src=\"%s\" style=\"width: -webkit-fill-available;\" controls></video>" $href}}
           {{$content = replace $content . $link}}
         <!-- Audio -->
         {{else if in ".mp3 .webm .wav .m4a .ogg .3gp .flac" $embed_ext}}
-          {{$link := printf "<audio src=\"%s\" style=\"width: 100\%;\" controls></audio>" $href}}
+          {{$link := printf "<audio src=\"%s\" style=\"width: -webkit-fill-available;\" controls></audio>" $href}}
           {{$content = replace $content . $link}}
         <!-- PDF -->
         {{else if in ".pdf" $embed_ext }}
-          {{$link := printf "<iframe src=\"%s\" style=\"aspect-ratio: 0.7; width: 100\%;\"></iframe>" $href}}
+          {{$link := printf "<iframe src=\"%s\" style=\"aspect-ratio: 0.7; width: -webkit-fill-available;\"></iframe>" $href}}
           {{$content = replace $content . $link}}
         <!-- other -->
         {{else}}
