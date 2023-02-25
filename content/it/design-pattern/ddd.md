@@ -14,3 +14,4 @@ title: Domain Driven Design
 
 ## Антипаттерны
 
+- [[it/design-pattern/ddd/primitives-obsession|Одержимость примитивами]]
