@@ -8,8 +8,9 @@ title: Domain Driven Design
 
 ## Техники DDD
 
-- [[Общий словарь терминов]]
-- [[Слоистая архитектура]]
-- [[Моделирование предметной области]]
+- [[it/design-pattern/ddd/glossarium|Общий словарь терминов]]
+- [[it/design-pattern/ddd/layers.md|Слоистая архитектура]]
+- [[it/design-pattern/ddd/domain-modeling|Моделирование предметной области]]
 
+## Антипаттерны
 
